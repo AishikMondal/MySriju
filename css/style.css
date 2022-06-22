@@ -1,0 +1,165 @@
+/* Add all your styles here */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+     /* background-color: antiquewhite;  */
+    /* background-image: url(https://img.freepik.com/free-vector/pastel-balloons-background-happy-birthday-card_25819-578.jpg?w=200); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+}
+.hbd{
+    text-shadow: 5px 3px 2px hotpink;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px;
+    word-spacing: 2px;
+    color: hotpink;
+    text-shadow: 2px 2px 4px #da4bce;
+    border: 3px #c4a8ff dotted ;
+    border-radius: 55px 54px 10px 10px;
+    animation: blink 3s;
+    animation-iteration-count: infinite;
+}
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+
+    justify-content: center;
+    margin-top: 5px;
+    color: blue;
+    font-weight: 900;
+    font-size: 7vw;
+   
+    animation: beat 1.5s infinite alternate;
+   
+    
+    
+}
+.strong{
+    color: rgb(255,0, 30);
+    animation: glow 3s linear infinite;
+    text-shadow:
+      0 0 7px rgb(235, 97, 97),
+      0 0 10px rgb(207, 71, 71),
+      0 0 21px rgb(173, 65, 65),
+      0 0 42px rgb(224, 72, 230),
+      0 0 82px rgb(177, 72, 72),
+      0 0 92px rgb(210, 51, 73),
+      0 0 102px #d1196f,
+      0 0 151px rgb(234, 63, 63);
+}
+
+img{
+    height:45vh;
+    width:85vw;
+    border-radius: 70%;;
+    box-shadow: 3px 2px 1px #fff;
+}
+.img{
+    display: grid;
+    place-items: center;
+  
+    border-radius: 50%;
+    }
+
+.msg{
+  color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: #373333;
+    opacity: 0.8;
+    font-size: 17px;
+    height: auto;
+    width:auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation:  shine 2s infinite;
+   font-family: 'Pacifico', cursive;
+     /*font-family: 'Fascinate', cursive;*/
+     
+}
+.poem{
+ background-image: linear-gradient(90deg,red,blue);
+  background-clip: text;
+  color: black;
+  margin: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+footer{
+    color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 2px;
+    margin-top: 20px;
+    left: 10px;
+}
+a{
+    text-decoration: none;
+}
+button{
+  background-color: #262626;
+  text-decoration: underline;
+  color: #0ff;
+  margin: 10px;
+ padding: 5px
+}
+#more{
+  display: none;
+}
+.noneclass{
+  display: inline;
+}
+@keyframes blink { 50% { border-color: #ff0000; }  }
+
+@keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes shine{
+    30%{
+        border-image: linear-gradient(10deg,#f00,#0f0,#00f,#ff0,#0ff,#f0f);
+        border-image-slice: 1;
+    }
+    60%{
+        border-image: linear-gradient(45deg,#f00,#0f0,#00f,#ff0,#0ff,#f0f);
+        border-image-slice: 1;
+    }
+    0%{
+        border-image: linear-gradient(-45deg,#f00,#0f0,#00f,#ff0,#0ff,#f0f);
+        border-image-slice: 1;
+    }
+    100%{
+        border-image: linear-gradient(90deg,#f00,#0f0,#00f,#ff0,#0ff,#f0f);
+        border-image-slice: 1;
+    }
+  }
+
