@@ -84,7 +84,7 @@ img{
     padding: 8px;
     background-color: #373333;
     opacity: 0.8;
-    font-size: 17px;
+    font-size: 20px;
     height: auto;
     width:auto;
     margin-left: 10px;
@@ -92,6 +92,7 @@ img{
     animation:  shine 2s infinite;
    font-family: 'Pacifico', cursive;
      /*font-family: 'Fascinate', cursive;*/
+     font-weight : 900;
      
 }
 .poem{
@@ -100,7 +101,7 @@ img{
   color: black;
   margin: 10px;
   font-family: 'Pacifico', cursive;
-  font-size: 20px;
+  font-size: 23px;
 }
 footer{
     color:aliceblue;
