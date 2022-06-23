@@ -163,4 +163,9 @@ button{
         border-image-slice: 1;
     }
   }
-
+@media (min-width:850px){
+  img{
+    height:90vh;
+    width:50vh;
+  }
+}
